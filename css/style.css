@@ -1,0 +1,91 @@
+:root {
+    --main-color: #3498DB;
+    --second-color: #0979F1;
+    --font-color: #fff;
+    --font: 'Poppins', sans-ser
+}
+
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+    /* poner siempre */
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font);
+    color: var(--font-color);
+    font-size: auto;
+    font-weight: bold;
+    background: rgb(7, 45, 250);
+    background: linear-gradient(90deg, rgba(7, 45, 250, 0.7456232492997199) 37%, rgba(89, 118, 244, 0.6419817927170868) 81%);
+}
+
+.counter_content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.counter_content h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contenedor-ppal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.bloque-general {
+    width: 100%;
+    max-width: 40rem;
+    height: 48rem;
+
+    border: 1rem solid var(--second-color);
+    padding-bottom: 1rem;
+}
+
+.pantalla {
+    border: 0.5rem solid var(--font-color);
+    width: 90%;
+
+    height: 30rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+button {
+    width: 50%;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+button:hover {
+    background-color: var(--second-color);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
